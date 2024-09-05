@@ -5,6 +5,10 @@ function retornarPerimetro(lado) {
    // 2 ---> 8
    // 0 ---> 0
    // Tu código:
+   console.log(lado * 4);
+   return (lado * 4);
 }
 
 module.exports = retornarPerimetro;
+
+retornarPerimetro(2)

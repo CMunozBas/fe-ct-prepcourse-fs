@@ -6,6 +6,10 @@ function esPar(num) {
   // 14 ---> true
   // 15 ---> false
   // Tu código:
+  console.log( num % 2 == 0);
+  return (num % 2 === 0);
 }
 
 module.exports = esPar;
+
+esPar(10)
